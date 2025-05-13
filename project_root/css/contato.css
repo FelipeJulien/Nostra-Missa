@@ -21,7 +21,7 @@ body {
 
 /* FORMULÁRIO */
 form {
-  background: #fff;
+  background: #ffffff;
   max-width: 500px;
   height: 450px;
   padding: 40px;
@@ -83,8 +83,8 @@ form input[type=submit] {
   padding: 10px 40px;
   border: 0;
   border-radius: 10px;
-  background-color: #2D5966;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 14pt;
   cursor: pointer;
 }
@@ -96,16 +96,16 @@ form input[type=submit] {
   right: 100px;
   width: 400px;
   background: #ffffff;
-  padding: 30px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  border-radius: 15px;
+  padding: -100px -100px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  border-radius: 1px;
   z-index: 999;
 }
 
 @media (max-width: 768px) {
   .contact-box-fixed {
     position: static;
-    width: 90%;
+    width: 50%;
     margin: 20px auto;
     top: auto;
     right: auto;
@@ -184,7 +184,7 @@ form input[type=submit] {
 .footer {
   background-color: #b92c2c; 
   color: #fff;
-  padding: 0px 0px; 
+  padding: 1px;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -222,7 +222,7 @@ form input[type=submit] {
 }
 
 .footer-address div {
-  width: 150px; 
+  width: 170px; 
 }
 
 .footer-address h4 {
@@ -234,6 +234,6 @@ form input[type=submit] {
   background-color: #9c2a2a; 
   text-align: center;
   padding: 5px 0; 
-  margin-top: 10px;
+  margin-top: -10px;
   font-size: 10px; 
 }
